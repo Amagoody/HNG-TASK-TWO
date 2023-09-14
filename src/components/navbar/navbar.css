@@ -221,7 +221,6 @@ body{
       display: block;
     }
     .navbar {
-      position: fixed;
       top: -100vh;
       right: 0;
       height: 50%;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from "react";
 import './navbar.css'
 import imdb from "../../assets/imdb.svg";
 import imbd_fruit from "../../assets/imdb_fruit.svg";
@@ -8,6 +8,8 @@ import signlogo from '../../assets/menuLogo.png'
 import poster from '../../assets/background.jpg'
 import search from '../../assets/Search.png'
 import { Button } from "@chakra-ui/react";
+import { FaBars } from "react-icons/fa";
+
 
 
 const Navbar = () => {

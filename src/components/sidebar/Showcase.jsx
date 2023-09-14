@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Sidebar from "./Sidebar";
 import { Outlet } from "react-router-dom";
 import "./style.css";
+import { FaBars } from "react-icons/fa";
 
 
 const Showcase = () => {
@@ -20,7 +21,7 @@ const Showcase = () => {
         }}
       >
         <button className="toggle-sidebar-button" onClick={toggleSidebar}>
-
+          <FaBars />
         </button>
         <Sidebar />
         <Outlet />

@@ -11,6 +11,12 @@ import { Button } from "@chakra-ui/react";
 
 
 const Navbar = () => {
+
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <div>
 
@@ -43,6 +49,12 @@ const Navbar = () => {
                 </div>
             </div>
       
+        </div>
+
+        <div className="navbar-toggle" onClick={toggleNavbar}>
+            <div className="bars">
+            <FaBars />
+            </div>
         </div>
 
         <div className="home-component">

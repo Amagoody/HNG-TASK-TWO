@@ -19,6 +19,9 @@ const Showcase = () => {
           display: "flex",
         }}
       >
+        <button className="toggle-sidebar-button" onClick={toggleSidebar}>
+
+        </button>
         <Sidebar />
         <Outlet />
       </div>

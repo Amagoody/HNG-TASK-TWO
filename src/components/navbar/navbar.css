@@ -201,6 +201,13 @@ body{
   }
 
   @media (max-width: 900px) {
+    .imgContainer{
+      width: 100%;
+    }
+
+    .img img{
+      height: 500px;
+    }
     .search-bar {
       width: 200px;
     }

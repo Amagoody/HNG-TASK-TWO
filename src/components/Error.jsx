@@ -1,5 +1,5 @@
 import React from 'react'
-import cancle from ".././assets/cancle.svg";
+import cancle from "../assets/cancle.svg";
 
 const Error = ({message}) => {
     <div className="error-container">

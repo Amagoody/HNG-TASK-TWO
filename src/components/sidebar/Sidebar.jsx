@@ -12,7 +12,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
     <div className="dashLogo">
-      <Link>
+      <Link to="/">
         <img src={moviebox} alt="moviebox" />
       </Link>
     </div>

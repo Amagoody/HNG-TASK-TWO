@@ -4,8 +4,8 @@ body{
 }
 
 .imgContainer {
-    position: absolute; 
-    background-size: cover;
+  position: absolute; 
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
@@ -13,7 +13,7 @@ body{
   justify-content: center;
   align-items: center;
   color: #fff;
-  }
+}
   
 
   .img img{
@@ -23,51 +23,51 @@ body{
   
 
 .navbar{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 70px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 70px;
 }
 
 .menu{
-    display: flex;
-    align-items: center;  
-    box-sizing: border-box;  
-    justify-content: space-between;
-    gap: 15px;
+  display: flex;
+  align-items: center;  
+  box-sizing: border-box;  
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .menu-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    content: "";
-    width: 30px;
-    height: 30px; 
-    border-radius: 50%;
-    border: 2px solid #be123c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "";
+  width: 30px;
+  height: 30px; 
+  border-radius: 50%;
+  border: 2px solid #be123c;
 }
 
 .menu-btn img {
-    width: 50px;
+  width: 50px;
 }
 
 .sign-in{
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
 }
 
 
 .searchInput{
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
 .searchInput input{
-    width: 450px;
-    background: transparent;
+  width: 450px;
+  background: transparent;
   outline: none;
   font-size: 16px;
   font-style: normal;

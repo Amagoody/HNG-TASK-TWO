@@ -30,20 +30,6 @@ body{
   padding: 24px 70px;
 }
 
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 3px 0;
-}
-
-.bars {
-  position: absolute;
-  font-size: 36px;
-  top: 40px;
-  right: 30px;
-  display: none;
-}
 .menu{
   display: flex;
   align-items: center;  
@@ -251,10 +237,6 @@ body{
       color: #fff;
       font-size: 16px;
       box-shadow: -4px 4px 11px 3px rgba(226, 227, 227, 0.61);
-    }
-
-    .logo img{
-      width: 50px;
     }
     .open {
       transform: translateY(100vh);

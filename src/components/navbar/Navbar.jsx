@@ -27,7 +27,7 @@ const Navbar = () => {
                 <img src={poster} alt='poster' />
             </div>
         </div>
-        <div className='navbar'>
+        <div className={`navbar ${isMenuOpen ? "open" : ""}`}>
         
             <div className="logo">
                 <img src={logo} alt={logo}/>
@@ -55,7 +55,7 @@ const Navbar = () => {
 
         <div className="navbar-toggle" onClick={toggleNavbar}>
             <div className="bars">
-            <FaBars />
+                 <FaBars />
             </div>
         </div>
 

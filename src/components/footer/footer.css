@@ -1,0 +1,120 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    margin: 100px;
+  }
+  .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+  }
+  .terms {
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+  }
+  .terms p {
+    color: var(--gray-900, #111827);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright p {
+    color: var(--gray-500, #6b7280);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 900px) {
+    .search-bar {
+      width: 200px;
+    }
+    .search-input input {
+      color: #fff;
+    }
+    .search-input input::placeholder {
+      font-size: 12px;
+    }
+    .bars {
+      display: block;
+    }
+    .navbar {
+      position: fixed;
+      top: -100vh;
+      right: 0;
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: #be123c;
+      transition: 1s;
+      transform: translateY(-100vh);
+      color: #fff;
+      font-size: 16px;
+      box-shadow: -4px 4px 11px 3px rgba(226, 227, 227, 0.61);
+    }
+    .open {
+      transform: translateY(100vh);
+    }
+    .description {
+      margin-top: 0;
+      padding-top: 200px;
+    }
+    .desc-title {
+      width: 320px;
+      font-size: 40px;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .desc-about p {
+      font-size: 12px;
+      width: 250px;
+    }
+    .desc-title {
+      width: 270px;
+      font-size: 32px;
+    }
+    .description {
+      padding: auto;
+    }
+    .terms p {
+      font-size: 14px;
+    }
+    .copyright p {
+      font-size: 10px;
+      width: 240px;
+    }
+    .featured {
+      font-size: 24px;
+    }
+    .featured-movies {
+      padding: 54px 20px;
+    }
+    .featured-movies span {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 320px) {
+    .desc-title {
+      width: 200px;
+    }
+  }
+  

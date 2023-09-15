@@ -10,20 +10,20 @@ import logout from "../../assets/Logout.svg";
 
 const Sidebar = () => {
   return (
-    <div className="sidebar">
-    <div className="dashLogo">
+    <div className="side">
+    <div className="dash">
       <Link to="/">
         <img src={moviebox} alt="moviebox" />
       </Link>
     </div>
-    <div className="dashItems">
+    <div className="Items">
       <div className="item">
         <div>
           <img src={home} alt="home" />
           <p>Home</p>
         </div>
       </div>
-      <div className="item-hignlight">
+      <div className="item-highlight">
         <div>
           <img src={movies} alt="home" />
           <p>Movies</p>
@@ -41,16 +41,16 @@ const Sidebar = () => {
           <p>Upcoming</p>
         </div>
       </div>
-      {/* box */}
-      <div className="start-playing">
+      {/* the box */}
+      <div className="start">
         <div>
-          <div className="quizes">
+          <div className="questions">
             <p>Play movie quizes and earn free tickets</p>
           </div>
-          <div className="people">
+          <div className="individual">
             <p>50k people are playing now</p>
           </div>
-          <div className="start-btn">
+          <div className="play-btn">
             <button>Start playing</button>
           </div>
         </div>

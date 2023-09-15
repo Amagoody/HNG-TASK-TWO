@@ -1,4 +1,4 @@
-.footer {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,18 +7,18 @@
     gap: 36px;
     margin: 100px;
   }
-  .socials {
+  .about {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 48px;
   }
-  .terms {
+  .condition {
     display: flex;
     align-items: flex-start;
     gap: 48px;
   }
-  .terms p {
+  .conditon p {
     color: var(--gray-900, #111827);
     font-size: 18px;
     font-style: normal;
@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: center;
   }
-  .copyright p {
+  .copy p {
     color: var(--gray-500, #6b7280);
     font-size: 18px;
     font-style: normal;
@@ -95,10 +95,10 @@
     .description {
       padding: auto;
     }
-    .terms p {
+    .condition p {
       font-size: 14px;
     }
-    .copyright p {
+    .copy p {
       font-size: 10px;
       width: 240px;
     }

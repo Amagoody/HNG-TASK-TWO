@@ -7,19 +7,19 @@ import youtube from "../../assets/youtube.svg";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="socials">
+    <div className="container">
+      <div className="about">
         <img src={facebook} alt="facebook" />
         <img src={instagram} alt="instagram" />
         <img src={twitter} alt="twitter" />
         <img src={youtube} alt="youtube" />
       </div>
-      <div className="terms">
+      <div className="condition">
         <p>Conditions of Use</p>
         <p>Privacy & Policy</p>
         <p>Press Room</p>
       </div>
-      <div className="copyright">
+      <div className="copy">
         <p>© 2021 MovieBox by Adriana Eka Prayudha </p>
       </div>
     </div>

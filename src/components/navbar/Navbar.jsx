@@ -22,31 +22,31 @@ const Navbar = () => {
   return (
     <div>
 
-        <div className="imgContainer">
-            <div className="img">
+        <div className="imgholder">
+            <div className="image">
                 <img src={poster} alt='poster' />
             </div>
         </div>
         <div className={`navbar ${isMenuOpen ? "open" : ""}`}>
         
-            <div className="logo">
+            <div className="tag">
                 <img src={logo} alt={logo}/>
             </div>
 
-            <div className="search">
-                <div className="searchInput">
+            <div className="enquire">
+                <div className="find">
                     <input 
                     type="text" 
                     spellCheck="true" 
                     placeholder='What do you want to watch?'/>
-                    <img src={search} alt="search" className='searchIcon' />
+                    <img src={search} alt="search" className='botton' />
                 </div>
             </div>
             
 
-            <div className="menu">
-                <p className="sign-in">Sign in</p>
-                <div className="menu-btn">
+            <div className="user">
+                <p className="user-login">Sign in</p>
+                <div className="user-btn">
                     <img src={signlogo} alt={signlogo} />
                 </div>
             </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
         </div>
 
         <div className="home-component">
-            <section className="description">
+            <section className="describe">
                 <div>
                 <h1 className="desc-title">John Wick 3 : Parabellum</h1>
                 </div>

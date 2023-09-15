@@ -12,7 +12,7 @@ const MovieDetailsPage = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
   
-    const API_KEY = "33d388825e76e9b397dba3d1301d3706";
+    const API_KEY = "218b28ddd7fa403475988f67a5b08197";
   
     useEffect(() => {
       fetch(

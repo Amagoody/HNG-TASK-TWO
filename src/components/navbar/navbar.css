@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 
-.imgContainer {
+.imgholder {
   position: absolute; 
   background-size: cover;
   background-position: center;
@@ -16,7 +16,7 @@ body{
 }
   
 
-  .img img{
+  .image img{
     width: 100%;
     
   }
@@ -30,7 +30,7 @@ body{
   padding: 24px 70px;
 }
 
-.menu{
+.user{
   display: flex;
   align-items: center;  
   box-sizing: border-box;  
@@ -38,7 +38,7 @@ body{
   gap: 15px;
 }
 
-.menu-btn{
+.user-btn{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,23 +49,23 @@ body{
   border: 2px solid #be123c;
 }
 
-.menu-btn img {
+.user-btn img {
   width: 50px;
 }
 
-.sign-in{
+.user-login{
   font-size: 20px;
   font-weight: bold;
   color: #fff;
 }
 
 
-.searchInput{
+.find{
   width: 100%;
   position: relative;
 }
 
-.searchInput input{
+.find input{
   width: 450px;
   background: transparent;
   outline: none;
@@ -81,7 +81,7 @@ body{
   border: 2px solid var(--gray-300, #d1d5db);
 }
 
-.searchIcon{
+.button{
     width: 16px;
     height: 16px;
     position: relative;
@@ -89,7 +89,7 @@ body{
     left: 92%;
 }
 
-.description {
+.describe {
     position: relative;
     top: -100px;
     left: 20px;
@@ -201,20 +201,20 @@ body{
   }
 
   @media (max-width: 900px) {
-    .imgContainer{
+    .imageholder{
       width: 100%;
     }
 
-    .img img{
+    .image img{
       height: 500px;
     }
-    .search-bar {
+    .enquire {
       width: 200px;
     }
-    .search-input input {
+    .find input {
       color: #fff;
     }
-    .search-input input::placeholder {
+    .find input::placeholder {
       font-size: 12px;
     }
     .bars {
@@ -241,7 +241,7 @@ body{
     .open {
       transform: translateY(100vh);
     }
-    .description {
+    .describe {
       margin-top: 0;
       padding-top: 200px;
     }
@@ -260,7 +260,7 @@ body{
       width: 270px;
       font-size: 32px;
     }
-    .description {
+    .describe {
       padding: auto;
     }
     .terms p {

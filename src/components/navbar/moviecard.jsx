@@ -6,16 +6,16 @@ const MovieCard = ({ data }) => {
   const imageLink = "https://image.tmdb.org/t/p/w500";
   return (
     <Link to={`movies/${data.id}`} target="_blank">
-      <div className="movie-card" data-testid="movie-card">
-        <img className="favourite" src={fav} alt="favourite movie" />
-        <div className="image" data-testid="movie-poster">
+      <div className="movie-box" data-testid="movie-card">
+        <img className="preferred" src={fav} alt="favourite movie" />
+        <div className="jpeg" data-testid="movie-poster">
           <img src={`${imageLink}${data.poster_path}`} alt={data.title} />
         </div>
         <div>
-          <span className="release" data-testid="movie-release-date">
+          <span className="refer" data-testid="movie-release-date">
             {data.release_date}
           </span>
-          <p className="title" data-testid="movie-title">
+          <p className="name" data-testid="movie-title">
             {data.title}
           </p>
         </div>
